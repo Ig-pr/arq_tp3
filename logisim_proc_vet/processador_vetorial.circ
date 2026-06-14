@@ -219,7 +219,7 @@
     </comp>
     <comp lib="0" loc="(160,460)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="reg_B_EX_MEM"/>
+      <a name="label" val="salto_brzr"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(1630,600)" name="Tunnel">
@@ -287,14 +287,21 @@
       <a name="facing" val="north"/>
       <a name="label" val="clk"/>
     </comp>
+    <comp lib="0" loc="(2220,850)" name="Tunnel">
+      <a name="label" val="is_brzr"/>
+    </comp>
     <comp lib="0" loc="(2230,340)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="label" val="reg_A"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="0" loc="(2280,380)" name="Tunnel">
+    <comp lib="0" loc="(2280,360)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="label" val="reg_B"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(2360,380)" name="Tunnel">
+      <a name="label" val="salto_brzr"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(250,550)" name="Clock">
@@ -310,6 +317,9 @@
       <a name="label" val="reg_B"/>
       <a name="width" val="8"/>
     </comp>
+    <comp lib="0" loc="(2930,390)" name="Tunnel">
+      <a name="label" val="ZERO"/>
+    </comp>
     <comp lib="0" loc="(2980,450)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="reg_A"/>
@@ -318,13 +328,6 @@
     <comp lib="0" loc="(3090,580)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="clk"/>
-    </comp>
-    <comp lib="0" loc="(3130,380)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="clk"/>
-    </comp>
-    <comp lib="0" loc="(3240,340)" name="Tunnel">
-      <a name="label" val="ZERO"/>
     </comp>
     <comp lib="0" loc="(3390,370)" name="Tunnel">
       <a name="label" val="ULA_result"/>
@@ -454,13 +457,13 @@
       <a name="width" val="8"/>
     </comp>
     <comp lib="3" loc="(430,430)" name="Adder"/>
+    <comp lib="5" loc="(2080,820)" name="Register">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="width" val="1"/>
+    </comp>
     <comp lib="5" loc="(300,450)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="PC"/>
-    </comp>
-    <comp lib="5" loc="(3180,310)" name="Register">
-      <a name="appearance" val="logisim_evolution"/>
-      <a name="width" val="1"/>
     </comp>
     <comp lib="5" loc="(630,1080)" name="ROM">
       <a name="addrWidth" val="4"/>
@@ -608,6 +611,7 @@
     <wire from="(1950,570)" to="(1950,610)"/>
     <wire from="(1950,570)" to="(1960,570)"/>
     <wire from="(200,470)" to="(200,490)"/>
+    <wire from="(2140,850)" to="(2220,850)"/>
     <wire from="(2180,410)" to="(2230,410)"/>
     <wire from="(2180,430)" to="(2280,430)"/>
     <wire from="(2180,450)" to="(2610,450)"/>
@@ -621,7 +625,9 @@
     <wire from="(2230,410)" to="(2610,410)"/>
     <wire from="(2270,550)" to="(2270,640)"/>
     <wire from="(2270,640)" to="(2670,640)"/>
+    <wire from="(2280,360)" to="(2280,380)"/>
     <wire from="(2280,380)" to="(2280,430)"/>
+    <wire from="(2280,380)" to="(2360,380)"/>
     <wire from="(2280,430)" to="(2610,430)"/>
     <wire from="(2280,530)" to="(2280,620)"/>
     <wire from="(2280,620)" to="(2420,620)"/>
@@ -649,15 +655,14 @@
     <wire from="(2670,550)" to="(3100,550)"/>
     <wire from="(280,520)" to="(280,550)"/>
     <wire from="(280,520)" to="(300,520)"/>
-    <wire from="(2830,410)" to="(3060,410)"/>
+    <wire from="(2830,410)" to="(2870,410)"/>
     <wire from="(2830,430)" to="(3100,430)"/>
+    <wire from="(2870,390)" to="(2870,410)"/>
+    <wire from="(2870,390)" to="(2930,390)"/>
     <wire from="(2900,470)" to="(3100,470)"/>
     <wire from="(2980,450)" to="(3100,450)"/>
-    <wire from="(3060,340)" to="(3060,410)"/>
-    <wire from="(3060,340)" to="(3180,340)"/>
     <wire from="(3090,570)" to="(3090,580)"/>
     <wire from="(3090,570)" to="(3100,570)"/>
-    <wire from="(3130,380)" to="(3180,380)"/>
     <wire from="(330,540)" to="(330,560)"/>
     <wire from="(3320,430)" to="(3340,430)"/>
     <wire from="(3320,450)" to="(3360,450)"/>

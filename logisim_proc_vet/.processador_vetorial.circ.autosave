@@ -56,7 +56,7 @@
     <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="1.0"/>
+    <a name="simulationFrequency" val="0.25"/>
     <comp lib="0" loc="(100,610)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="ZERO"/>
@@ -3833,7 +3833,7 @@
     <wire from="(1730,110)" to="(1860,110)"/>
     <wire from="(1730,130)" to="(1820,130)"/>
     <wire from="(1730,150)" to="(2000,150)"/>
-    <wire from="(1730,190)" to="(2470,190)"/>
+    <wire from="(1730,170)" to="(1890,170)"/>
     <wire from="(1730,210)" to="(2350,210)"/>
     <wire from="(1730,230)" to="(2370,230)"/>
     <wire from="(1730,490)" to="(1800,490)"/>
@@ -3896,6 +3896,8 @@
     <wire from="(1880,1200)" to="(1880,1240)"/>
     <wire from="(1880,1240)" to="(1880,1250)"/>
     <wire from="(1880,1250)" to="(2040,1250)"/>
+    <wire from="(1890,170)" to="(1890,190)"/>
+    <wire from="(1890,190)" to="(2470,190)"/>
     <wire from="(1980,570)" to="(1980,590)"/>
     <wire from="(1980,590)" to="(2470,590)"/>
     <wire from="(1980,930)" to="(1980,950)"/>

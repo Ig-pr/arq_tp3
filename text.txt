@@ -1,0 +1,15 @@
+
+s.movh 0       
+s.movl 5       
+s.add 1, 1   
+
+s.st 2, 1      
+
+v.movh 0        
+v.movl 3      
+v.sub 1, 1  
+
+
+s.sub 1, 1  
+s.brzr 1
+

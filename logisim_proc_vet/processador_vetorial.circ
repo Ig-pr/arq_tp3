@@ -70,7 +70,7 @@
       <a name="appearance" val="NewPins"/>
     </comp>
     <comp lib="0" loc="(1020,690)" name="Tunnel">
-      <a name="label" val="por"/>
+      <a name="label" val="reset"/>
     </comp>
     <comp lib="0" loc="(1040,550)" name="Splitter">
       <a name="bit1" val="0"/>
@@ -188,7 +188,7 @@
     </comp>
     <comp lib="0" loc="(1380,540)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="por"/>
+      <a name="label" val="reset"/>
     </comp>
     <comp lib="0" loc="(1390,920)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -288,7 +288,7 @@
     </comp>
     <comp lib="0" loc="(1590,1100)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="por"/>
+      <a name="label" val="reset"/>
     </comp>
     <comp lib="0" loc="(160,460)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -366,7 +366,7 @@
     </comp>
     <comp lib="0" loc="(1960,640)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="por"/>
+      <a name="label" val="reset"/>
     </comp>
     <comp lib="0" loc="(1970,250)" name="Probe">
       <a name="appearance" val="NewPins"/>
@@ -405,7 +405,7 @@
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(2260,1150)" name="Tunnel">
-      <a name="label" val="por"/>
+      <a name="label" val="reset"/>
     </comp>
     <comp lib="0" loc="(2280,360)" name="Tunnel">
       <a name="facing" val="south"/>
@@ -455,7 +455,7 @@
     </comp>
     <comp lib="0" loc="(3070,600)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="por"/>
+      <a name="label" val="reset"/>
     </comp>
     <comp lib="0" loc="(3370,230)" name="Probe">
       <a name="appearance" val="NewPins"/>
@@ -498,7 +498,7 @@
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(370,710)" name="Tunnel">
-      <a name="label" val="por"/>
+      <a name="label" val="reset"/>
     </comp>
     <comp lib="0" loc="(420,320)" name="Probe">
       <a name="appearance" val="NewPins"/>
@@ -3055,19 +3055,19 @@
     </comp>
     <comp lib="0" loc="(1090,250)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="POR"/>
+      <a name="label" val="reset"/>
     </comp>
     <comp lib="0" loc="(1090,640)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="POR"/>
+      <a name="label" val="reset"/>
     </comp>
     <comp lib="0" loc="(1100,1000)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="POR"/>
+      <a name="label" val="reset"/>
     </comp>
     <comp lib="0" loc="(1120,1370)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="POR"/>
+      <a name="label" val="reset"/>
     </comp>
     <comp lib="0" loc="(1390,920)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -3211,7 +3211,7 @@
     </comp>
     <comp lib="0" loc="(1490,1070)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="POR"/>
+      <a name="label" val="reset"/>
     </comp>
     <comp lib="0" loc="(150,1140)" name="Tunnel">
       <a name="facing" val="north"/>
@@ -3241,7 +3241,7 @@
     </comp>
     <comp lib="0" loc="(1500,300)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="POR"/>
+      <a name="label" val="reset"/>
     </comp>
     <comp lib="0" loc="(1500,700)" name="Tunnel">
       <a name="facing" val="north"/>
@@ -3249,7 +3249,7 @@
     </comp>
     <comp lib="0" loc="(1520,1450)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="POR"/>
+      <a name="label" val="reset"/>
     </comp>
     <comp lib="0" loc="(160,460)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -3275,7 +3275,7 @@
     </comp>
     <comp lib="0" loc="(160,800)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="POR"/>
+      <a name="label" val="reset"/>
     </comp>
     <comp lib="0" loc="(170,510)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -3416,7 +3416,7 @@
       <a name="label" val="CLK"/>
     </comp>
     <comp lib="0" loc="(240,800)" name="Tunnel">
-      <a name="label" val="POR"/>
+      <a name="label" val="reset"/>
     </comp>
     <comp lib="0" loc="(2410,120)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -3476,11 +3476,11 @@
     </comp>
     <comp lib="0" loc="(2480,290)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="POR"/>
+      <a name="label" val="reset"/>
     </comp>
     <comp lib="0" loc="(2490,680)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="POR"/>
+      <a name="label" val="reset"/>
     </comp>
     <comp lib="0" loc="(250,230)" name="Tunnel">
       <a name="label" val="wm"/>
@@ -3491,11 +3491,11 @@
     </comp>
     <comp lib="0" loc="(2500,1060)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="POR"/>
+      <a name="label" val="reset"/>
     </comp>
     <comp lib="0" loc="(2500,1420)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="POR"/>
+      <a name="label" val="reset"/>
     </comp>
     <comp lib="0" loc="(2750,620)" name="Tunnel">
       <a name="label" val="wb_1"/>
